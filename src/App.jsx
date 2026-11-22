@@ -28,6 +28,16 @@ const projects = [
   },
   {
     number: '03',
+    title: 'Portfolio Website 2.0',
+    description:
+      'A new portfolio experiment exploring a more polished way to present my work.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    category: 'Frontend',
+    github: 'https://github.com/ganuborade/Reactive-Portfolio-2027',
+    live: 'https://ganuborade.github.io/Reactive-Portfolio-2027/',
+  },
+   {
+    number: '04',
     title: 'AutoAttend',
     description:
       'A webcam-based face recognition attendance system designed to make recording student attendance more automatic.',
@@ -38,7 +48,7 @@ const projects = [
     featured: true,
   },
   {
-    number: '04',
+    number: '05',
     title: 'My Village Portal',
     description:
       'A modern community portal that makes local information and services easier to find.',
@@ -48,17 +58,17 @@ const projects = [
     live: 'https://ganuborade.github.io/my-village-portal/',
   },
   {
-    number: '05',
-    title: 'Portfolio Website 2.0',
+    number: '06',
+    title: 'Portfolio Website 1.0',
     description:
-      'An earlier portfolio experiment exploring a more polished way to present my work.',
+      'An earlier portfolio experiment the ',
     stack: ['HTML', 'CSS', 'JavaScript'],
     category: 'Frontend',
     github: 'https://github.com/ganuborade/portfolio.website2.0',
     live: 'https://ganuborade.github.io/portfolio.website2.0/',
   },
   {
-    number: '06',
+    number: '07',
     title: 'Online Project Management System',
     description:
       'A straightforward project management application built around a clear Java web architecture.',
@@ -67,7 +77,7 @@ const projects = [
     github: 'https://github.com/ganuborade/Online-Product-Managment-System',
   },
   {
-    number: '07',
+    number: '08',
     title: 'NexLayar Business Website',
     description:
       'A responsive business website concept for presenting web development services.',
@@ -77,7 +87,7 @@ const projects = [
     live: 'https://ganuborade.github.io/nex_layar/',
   },
   {
-    number: '08',
+    number: '09',
     title: 'Currency Converter',
     description:
       'A compact utility for exploring currency conversion through a simple, approachable interface.',
@@ -87,7 +97,7 @@ const projects = [
     live: 'https://ganuborade.github.io/CurrencyConverterWebsite/',
   },
   {
-    number: '09',
+    number: '10',
     title: 'Simple Interest Calculator',
     description:
       'A practical calculator that turns a familiar formula into a small, easy-to-use web tool.',
@@ -97,7 +107,7 @@ const projects = [
     live: 'https://ganuborade.github.io/Simple-Interest-Calculator/',
   },
   {
-    number: '10',
+    number: '11',
     title: 'Math Portal — Static Edition',
     description:
       'A lightweight, database-free edition of a community portal, made for static GitHub Pages hosting.',
@@ -110,9 +120,9 @@ const projects = [
 
 const skills = [
   { title: 'Frontend', items: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap'] },
-  { title: 'Backend', items: ['Java', 'Spring Boot', 'Spring MVC', 'Hibernate', 'JPA'] },
+  { title: 'Backend', items: ['Java', 'Spring Boot', 'SpringDataJPA', 'Microservices', 'Spring MVC', 'Spring Security','Hibernate', 'JPA'] },
   { title: 'Data & Cloud', items: ['MySQL', 'Oracle SQL', 'AWS', 'Docker'] },
-  { title: 'Workflow', items: ['Git & GitHub', 'JUnit', 'VS Code', 'Eclipse'] },
+  { title: 'Workflow', items: ['Git & GitHub', 'JUnit', 'VS Code', 'Eclipse','Loggers'] },
 ];
 
 const milestones = [
