@@ -15,7 +15,7 @@ Create a production build with `npm run build`. Preview it locally with `npm run
 
 ## GitHub Pages deployment
 
-The included GitHub Actions workflow builds and deploys the site when changes are pushed to `main` (and can also be started manually). In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
+The included GitHub Actions workflow installs dependencies, builds the Vite site into `dist`, and deploys that build when changes are pushed to `main` (or when started manually). In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
 
 Vite is configured for this repository's project-page URL, `https://ganuborade.github.io/Reactive-Portfolio-2027/`. If the repository name changes, update the `base` value in `vite.config.js` to match.
 
