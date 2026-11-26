@@ -17,14 +17,12 @@ const projects = [
   },
   {
     number: '02',
-    title: 'Mathur Giri Maharaj Math Sansthan',
+    title: 'Online Project Management System',
     description:
-      'A full-stack community portal for events, announcements, galleries, committee members, and financial records.',
-    stack: ['React', 'Node.js', 'MySQL'],
-    category: 'Full stack',
-    github: 'https://github.com/ganuborade/math-portal',
-    live: 'https://math-portal-9zgx.onrender.com/',
-    featured: true,
+      'A straightforward project management application built around a clear Java web architecture.',
+    stack: ['Java', 'Servlets', 'JSP'],
+    category: 'Java',
+    github: 'https://github.com/ganuborade/Online-Product-Managment-System',
   },
   {
     number: '03',
@@ -67,14 +65,16 @@ const projects = [
     github: 'https://github.com/ganuborade/portfolio.website2.0',
     live: 'https://ganuborade.github.io/portfolio.website2.0/',
   },
-  {
+ {
     number: '07',
-    title: 'Online Project Management System',
+    title: 'Mathur Giri Maharaj Math Sansthan',
     description:
-      'A straightforward project management application built around a clear Java web architecture.',
-    stack: ['Java', 'Servlets', 'JSP'],
-    category: 'Java',
-    github: 'https://github.com/ganuborade/Online-Product-Managment-System',
+      'A full-stack community portal for events, announcements, galleries, committee members, and financial records.',
+    stack: ['React', 'Node.js', 'MySQL'],
+    category: 'Full stack',
+    github: 'https://github.com/ganuborade/math-portal',
+    live: 'https://math-portal-9zgx.onrender.com/',
+    featured: true,
   },
   {
     number: '08',
